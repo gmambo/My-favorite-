@@ -1,0 +1,87 @@
+body{ text-align: center;
+margin: 0;
+padding-top:800px;
+
+}
+#photo{
+border-radius:50%;
+width:175px;
+margin-bottom:50px;
+margin-top:80px;
+
+}
+#welcome{
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+position:absolute;
+color: white;
+background:linear-gradient(aqua 0%, lightgreen 100%);
+overflow: hidden;
+display:table;
+width: 100%;
+height:800px;
+
+}
+#bio{
+padding:50px;
+text-align: center;
+font-size: 40px;
+}
+.line{
+height: 6px;
+background-color:aquamarine;
+width: 300px;
+margin:8px auto;
+}
+p{
+margin:25px auto;
+font-size: 20px;
+max-width: 500px;
+
+}
+.profile{
+display:table-cell;
+position:relative;
+vertical-align: middle;
+text-align: center;
+}
+
+.menu
+{position: absolute;
+top: 10px;
+right: 30px;
+list-style: none;
+z-index: 10;
+cursor: pointer;
+
+}
+.link
+{font-size: 30px;
+padding-left: 10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+font-family:cursive;
+color: white;
+float: left;
+font-weight: bold;
+
+
+}
+.link:hover{
+background-color: pink;
+}
+h1{
+font-size: 40px;
+}
+h2{
+font-size: 30px;
+}
+.Artical{
+color: aquamarine;
+font-size: 30px;
+text-decoration: none;
+}
+
